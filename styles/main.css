@@ -1,0 +1,141 @@
+
+header {
+    text-align: center;
+    background-color: rgba(108, 189, 255, 0.479);
+    margin: -8px;
+    height: fit-content;
+    margin-bottom: 40px;
+}
+
+h1 {
+    padding: 10px;
+    justify-content: center;
+    font-size: 50px;
+}
+
+body {
+    background: slategray url("/images/ocean-background.jpeg") fixed center ;
+    background-size: cover;
+    color: white;
+    font-family: monospace;
+    font-size: 16px;
+}
+
+h2 {
+    margin: 5px;
+    text-align: center;
+}
+.sec-h2{
+    background-color: orange;
+    max-width: fit-content;
+    margin: auto;
+    border: rgb(99, 193, 255, 0.5) solid 2px;
+    border-bottom: none;
+}
+h3 {
+    margin: 5px;
+    text-align: left;
+    flex: none
+}
+p {
+    margin: 10px;
+}
+
+ol {
+    margin: 2px;
+}
+
+main {
+    display: flex;
+    margin: 1em;
+}
+
+.main-content {
+    flex: 1 2 75%;
+    max-width: fit-content;
+}
+
+.aquarium {
+    /* border: black 2px solid; */
+    border-radius: 5px;
+    background: rgba(50, 210, 250, 0.25);
+    margin-bottom: 1em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 30px 0px 30px 0px;
+    /* max-height: 20%;
+    overflow: scroll; */
+}
+
+.fish {
+    margin: 0px 0px 30px 0px;
+    /* flex-basis: 25%; */
+    border: 1px black solid;
+    border-radius: 5px;
+}
+
+
+.fish-image img {
+    width: 500px;
+    height: 300px;
+    border-radius: 5px;
+    object-fit: cover;
+}
+
+.location-div {
+    /* border: black 2px solid; */
+    border-radius: 5px;
+    background: rgba(25, 49, 99, 0.65);
+}
+
+blockquote {
+    background-color: rgb(64, 108, 121);
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+    padding: 5px;
+    font-style: italic;
+    font-size: 20px;
+}
+.location-div {
+    padding: 5px;
+}
+
+.locations-section {
+    margin: 1em;
+    display: flex;
+}
+
+.locations {
+    margin: 1em;
+    display: flex;
+    flex-wrap: wrap;
+}
+.locations h2 {
+    font-size: 40px;
+}
+
+.location-image img {
+    max-width: 500px;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+aside {
+    flex-basis: 20%;
+    margin-left: 1em;
+}
+
+.aside-content {
+    /* border: black 2px solid; */
+    border-radius: 5px;
+    background: rgba(106, 141, 54, 0.5);
+    padding: 10px;
+}
+
+footer {
+    background-color: black;
+    margin: -8px;
+    text-align: center;
+    font-size: 20px;
+}
